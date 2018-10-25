@@ -1,3 +1,4 @@
 my-env
 .vscode
 _DS.Store
+__pycache__
