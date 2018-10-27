@@ -1,13 +1,4 @@
-from flask import Flask
-from urllib.request import urlopen
-from bs4 import BeautifulSoup
-
-app = Flask(__name__)
-
-
-@app.route("/")
-def home():
-    return "hello world"
+from seo import app
 
 
 if __name__ == '__main__':
