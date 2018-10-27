@@ -1,4 +1,4 @@
 my-env
 .vscode
-_DS.Store
+.DS_Store
 __pycache__
