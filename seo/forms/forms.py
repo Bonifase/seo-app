@@ -5,7 +5,7 @@ from wtforms.validators import DataRequired, Length
 
 class UrlForm(FlaskForm):
     url = StringField('Url',
-                      validators=[DataRequired(), Length(min=2, max=20)])
+                      validators=[DataRequired(), Length(min=2, max=1000)])
     keyword = StringField('Keyword',
-                          validators=[DataRequired(), Email()])
+                          validators=[DataRequired(), Length(min=2, max=60)])
     submit = SubmitField('Search')
